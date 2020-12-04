@@ -4,7 +4,7 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 Please refer to this work using: F. Gonçalves, B. Ribeiro, O. Gama, J. Santos, A. Costa, B. Dias, M. J. Nicolau, J. Macedo, and A. Santos, “Synthesizing Datasets with Security Threats for Vehicular Ad-Hoc Networks,” 
 in IEEE Globecom 2020: 2020 IEEE Global Communications Conference (GLOBECOM’2020), Taipei, Taiwan
 
-**The datasets described in the aboce paper are available at:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4304411.svg)](https://doi.org/10.5281/zenodo.4304411)
+**The datasets described in the above paper are available at:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4304411.svg)](https://doi.org/10.5281/zenodo.4304411)
 
 
 
