@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue May  7 01:27:59 2019 by Eclipse SUMO duarouter Version d1422e4780
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="grid.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="grid.rou.xml"/>
+        <alternatives-output value="grid.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes>    
+    <route id="1" edges="D3C3 C3B3 B3B2 B2B1 B1B0 B0A0"/>
+    <route id="2" edges="D3C3 C3B3 B3B2 B2B1 B1B0 B0A0"/>
+    <route id="3" edges="A0A1 A1A2 A2B2 B2C2 C2D2 D2D3"/>
+    <route id="4" edges="A3B3 B3B2 B2B1 B1B0 B0C0 C0D0"/>
+    <route id="5" edges="A3A2 A2A1 A1B1 B1B0 B0C0 C0D0"/>
+    <route id="6" edges="D3D2 D2C2 C2B2 B2A2 A2A1 A1A0"/>
+    <route id="7" edges="D3D2 D2C2 C2B2 B2A2 A2A1 A1A0"/>  
+    <route id="8" edges="B0B1 B1C1 C1D1"/>
+    <route id="9" edges="A3B3 B3B2 B2A2 A2B2"/>
+    <route id="10" edges="A2A3 A3A2 A2A1 A1B1 B1B0 B0C0 C0D0 D0D1"/>
+    <route id="11" edges="C3D3 D3C3 C3C2 C2C1 C1B1"/>
+    <route id="12" edges="B1C1 C1B1 B1A1 A1A2 A2A3 A3A2"/>
+    <route id="13" edges="C0D0 D0C0 C0B0 B0B1 B1B2 B2C2"/>
+    <route id="14" edges="D0D1"/>
+    <route id="15" edges="A2A3 A3A2 A2B2 B2B3"/>
+    <route id="16" edges="B3C3 C3B3 B3B2 B2B1 B1A1"/>
+    <route id="17" edges="C0D0 D0C0"/>
+    <route id="18" edges="B1B0 B0B1 B1A1 A1A2 A2A1"/>
+    <route id="19" edges="C3B3 B3B2 B2B1 B1B0 B0C0 C0B0"/>
+    <route id="20" edges="B0A0 A0A1 A1B1 B1C1 C1B1"/>
+    <route id="21" edges="C2D2 D2D3 D3C3"/>
+    <route id="22" edges="C3D3 D3C3 C3C2 C2C3"/>
+    <route id="23" edges="B3B2 B2B3 B3C3 C3D3 D3C3"/>
+    <route id="24" edges="B0A0 A0B0"/>
+    <route id="25" edges="D2D3 D3C3 C3B3 B3C3"/>
+    <route id="26" edges="D2D1 D1C1 C1B1 B1C1"/>
+    <route id="27" edges="A3A2 A2B2 B2C2 C2D2 D2D1"/>
+    <route id="28" edges="A0A1 A1A2 A2A3 A3B3 B3C3 C3D3 D3D2 D2D1 D1D0 D0C0 C0B0 B0A0"/>
+    <route id="29" edges="A0B0 B0C0 C0D0 D0D1 D1D2 D2D3 D3C3 C3B3 B3A3 A3A2 A2A1 A1A0"/>
+    <route id="30" edges="A3B3 B3B2 B2B1 B1A1 A1A2 A2B2 B2C2 C2D2 D2D1 D1C1 C1B1 B1B2 B2B3"/>
+</routes>

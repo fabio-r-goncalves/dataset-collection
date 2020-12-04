@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.uminho.easyride</groupId>
+    <artifactId>iids</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <repositories>
+        <repository>
+            <id>in-project-applicationNT</id>
+            <name>In Project Repo Application NT</name>
+            <url>file://../../../bin/ambassadors/applicationNT-ambassador-19.0.jar</url>
+        </repository>
+        <repository>
+            <id>in-project-ambassadors</id>
+            <name>In Project Repo Ambassadors</name>
+            <url>file://../../../bin/ambassadors/lib/</url>
+        </repository>
+        <repository>
+            <id>in-project-lib</id>
+            <name>In Project Repo lib</name>
+            <url>file://../../../bin/lib/</url>
+        </repository>
+        <repository>
+            <id>in-project-core</id>
+            <name>In Project Core</name>
+            <url>file://../../../bin/core/vsimrti-19.0.jar</url>
+        </repository>
+    </repositories>
+   
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <finalName>iids</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <outputDirectory>../applicationNT</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
+                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,4 @@
+{
+	"sumoConfigurationFile" : "gualtar3/gualtar3.sumo.cfg",
+	"updateInterval" : 5
+}

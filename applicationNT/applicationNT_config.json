@@ -1,0 +1,12 @@
+{
+	"messageCacheTime": 30000000000,
+	"behaviorActive" : "false",
+	"minimalCamLength" : 1500,
+	"minimalDenmLength" : 1500,
+	"maxStartOffset" : 1000000000,
+	"minInterval" : 1000000000,
+	"maxInterval" : 1100000000,
+	"positionChange" : 10,
+	"headingChange" : 10,
+	"velocityChange" : 2
+}

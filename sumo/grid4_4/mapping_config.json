@@ -1,0 +1,12 @@
+{
+  "prototypes": [
+    {
+      "name": "PKW",
+      "applications": [
+        "com.dcaiti.vsimrti.fed.applicationNT.emptyApplications.Vehicle"
+      ]
+    }
+  ],
+  "chargingStations": [],
+  "vehicles": []
+}
